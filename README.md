@@ -4,9 +4,9 @@ Extensible full node using MIB v1.8.17
 
 
 ### Supported OS
-1. Ubuntu 16.04 LST x64 or more
-2. CentOS 7.x x64 or more
-3. Windows Server 2012 R2 x64 or more
+1. Ubuntu 16.04 LST x64 or later
+2. CentOS 7.x x64 or later
+3. Windows Server 2012 R2 x64 or later
 
 ### Minimum Server Requirements
 1. For Linux / Windows 
@@ -47,16 +47,17 @@ Extensible full node using MIB v1.8.17
    >instance: Gmib/v1.8.17-stable/linux-amd64/go1.10.4  
    >modules: admin:1.0 debug:1.0 mib:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 smarthash:1.0 txpool:1.0 web3:1.0  
 
-   > mib.syncing  
-   {  
-     currentBlock: 1024,  
-     highestBlock: 3333,  
-     knownStates: 23933,  
-     pulledStates: 23933,  
-     startingBlock: 0  
-   }  
-   > mib.blockNumber  
-   3333  
+    ***>mib.syncing***  
+   > {  
+    >currentBlock: 1024,  
+    >highestBlock: 3333,  
+    >knownStates: 23933,  
+    >pulledStates: 23933,  
+    >startingBlock: 0  
+   > }  
+   
+    ***>mib.blockNumber***  
+    >3333  
 
 
 ### Running Node for Pool Management (on Linux)
@@ -79,7 +80,7 @@ Running Node on Pool to enable real Mining
   
     >example)  
     >$ ./gmib --datadir /home/user/mib/data --port 38001 --rpcport 9999 --rpc --rpcaddr 0.0.0.0 --rpcapi “web3,admin,mib,debug,net” --rpccorsdomain *  
-    ☞ Warning) add rpcapi if needed  
+    ☞ Option) add rpcapi if needed  
     -types of rpcapi : web3, admin, mib, debug, net, txpool, personal  
 
 3. Running miner from Node  
