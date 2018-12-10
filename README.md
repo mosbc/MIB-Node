@@ -73,7 +73,7 @@ Running Node on Pool to enable real Mining
      >example)  
      >$ mkdir -p /home/user/mib/data/keystore
 
-   b. Upload the keystore file of Payout Wallet in keystore directory that you created from 1)  
+   b. Upload the keystore file of Payout Wallet in keystore directory that you created from a)  
    
 2. Running MIB Node  
   ***$ ./gmib --datadir /path/to/yourdir --port defaultport --rpcport yourport --rpc --rpcaddr 0.0.0.0 --rpcapi “web3,admin,mib,debug,net” --rpccorsdomain*** *  
