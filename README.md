@@ -16,9 +16,9 @@ Extensible full node using MIB v1.8.17
 
 ### Starting Node
 1. GMIB  
-  -gmib : Run file for Node that constructs MIB Blockchain Network 
-  -Default gmib ports for each Network 
-  -TestNet 35001 
+  -gmib : Run file for Node that constructs MIB Blockchain Network  
+  -Default gmib ports for each Network  
+  -TestNet 35001  
   -MainNet 38001 
  
 2. Running Normal Node (in Windows)  
