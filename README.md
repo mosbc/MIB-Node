@@ -14,20 +14,22 @@ Extensible full node using MIB v1.8.17
 3. RAM : 4GB or more
 4. DISK : 50GB or more (SSD Recommended)
 
-### On Running Node
+### Starting Node
 1. GMIB  
-  -gmib : node executable for MIB Blockchain Network  
-  -Default gmib ports  
-    TestNet   35001  
-    MainNet  38001  
+  -gmib : Run file for Node that constructs MIB Blockchain Network 
+  -Default gmib ports for each Network
+  TestNet 35001
+  MainNet 38001
+ 
+2. Running Normal Node (in Windows)  
+  -Run Node for simple blockchain synchronization, input commands below 
+   1) TestNet : ***gmib --testnet --datadir /path/to/yourdir***
+   2) MainNet : ***gmib --datadir /path/to/yourdir*** 
 
-2. Running Normal Node (on Windows)  
-  -Running Normal Node for simple Blockchain synchronization  
-   ***gmib --datadir /path/to/yourdir***  
-
-3. Running Normal Node (on Linux)  
-  -Running Normal Node for simple Blockchain synchronization  
-   ***$ ./gmib --datadir /path/to/yourdir***  
+3. Running Normal Node (in Linux)  
+  -Run Node for normal blockchain synchronization 
+   1) TestNet : ***$ ./gmib --testnet --datadir /path/to/yourdir*** 
+   2) MainNet : ***$ ./gmib --datadir /path/to/yourdir*** 
    
    >ex)  
    >$ mkdir -p /home/user/mib/mibnode  
@@ -36,8 +38,8 @@ Extensible full node using MIB v1.8.17
    >$ tar xvzf gmib.tar.gz  
    >$ ./gmib --datadir /home/user/mib/data  
 
-4. Running Normal Node for Console (on Linux)  
-  -Running Node and connecting to Console to check Blockchain history  
+4. 4.	Run normal Node Console (in Linux)  
+  -Connect to Console after running Node to check the blockchain history 
    ***$ ./gmib --datadir /path/to/yourdir console***  
 
    >ex)  
