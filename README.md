@@ -19,17 +19,17 @@ Extensible full node using MIB v1.8.17
   -gmib : Run file for Node that constructs MIB Blockchain Network  
   -Default gmib ports for each Network  
   -TestNet 35001  
-  -MainNet 38001 
+  -MainNet 38001  
  
 2. Running Normal Node (in Windows)  
   -Run Node for simple blockchain synchronization, input commands below 
-   1) TestNet : ***gmib --testnet --datadir /path/to/yourdir***
-   2) MainNet : ***gmib --datadir /path/to/yourdir*** 
+   1) TestNet : ***gmib --testnet --datadir /path/to/yourdir***  
+   2) MainNet : ***gmib --datadir /path/to/yourdir***  
 
 3. Running Normal Node (in Linux)  
   -Run Node for normal blockchain synchronization 
    1) TestNet : ***$ ./gmib --testnet --datadir /path/to/yourdir*** 
-   2) MainNet : ***$ ./gmib --datadir /path/to/yourdir*** 
+   2) MainNet : ***$ ./gmib --datadir /path/to/yourdir***  
    
    >ex)  
    >$ mkdir -p /home/user/mib/mibnode  
@@ -39,7 +39,7 @@ Extensible full node using MIB v1.8.17
    >$ ./gmib --datadir /home/user/mib/data  
 
 4. 4.	Run normal Node Console (in Linux)  
-  -Connect to Console after running Node to check the blockchain history 
+  -Connect to Console after running Node to check the blockchain history  
    ***$ ./gmib --datadir /path/to/yourdir console***  
 
    >ex)  
