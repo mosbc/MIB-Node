@@ -1,17 +1,17 @@
 #### Mined Coins  
-https://www.mibscan.com/mib_api/mined
+https://www.mibscan.com/mib_api/mined  
 
 #### Last Block Number  
-https://www.mibscan.com/mib_api/lastblock
+https://www.mibscan.com/mib_api/lastblock  
 
 #### HashRate  
-https://www.mibscan.com/mib_api/hashrate
+https://www.mibscan.com/mib_api/hashrate  
 
 #### Current Number of Miners  
-https://www.mibscan.com/mib_api/miner
+https://www.mibscan.com/mib_api/miner  
 
 #### Network Difficulty  
-https://www.mibscan.com/mib_api/difficulty
+https://www.mibscan.com/mib_api/difficulty  
   
 Return type: json
 Success : {"result_code":200,"result_msg":"Success","result_data":{"difficulty":9416021116104592}}
