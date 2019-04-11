@@ -13,7 +13,7 @@ https://www.mibscan.com/mib_api/miner
 + Network Difficulty
 https://www.mibscan.com/mib_api/difficulty  
   
-Return type: json
+Return type: json  
 Success : {"result_code":200,"result_msg":"Success","result_data":{"difficulty":9416021116104592}}
 
 Failure: {"result_code":500,"result_msg":"Error Message"}
