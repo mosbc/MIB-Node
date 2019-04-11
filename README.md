@@ -1,16 +1,16 @@
-#### Mined Coins  
+#### Mined Coins
 https://www.mibscan.com/mib_api/mined  
 
-#### Last Block Number  
+#### Last Block Number
 https://www.mibscan.com/mib_api/lastblock  
 
-#### HashRate  
+#### HashRate
 https://www.mibscan.com/mib_api/hashrate  
 
-#### Current Number of Miners  
+#### Current Number of Miners
 https://www.mibscan.com/mib_api/miner  
 
-#### Network Difficulty  
+#### Network Difficulty
 https://www.mibscan.com/mib_api/difficulty  
   
 Return type: json
