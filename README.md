@@ -1,3 +1,25 @@
+#### Mined Coins  
+https://www.mibscan.com/mib_api/mined
+
+#### Last Block Number  
+https://www.mibscan.com/mib_api/lastblock
+
+#### HashRate  
+https://www.mibscan.com/mib_api/hashrate
+
+#### Current Number of Miners  
+https://www.mibscan.com/mib_api/miner
+
+#### Network Difficulty  
+https://www.mibscan.com/mib_api/difficulty
+  
+Return type: json
+Success : {"result_code":200,"result_msg":"Success","result_data":{"difficulty":9416021116104592}}
+
+Failure: {"result_code":500,"result_msg":"Error Message"}
+
+
+
 # MIB-Node
 Extensible full node using MIB v1.8.17
 
@@ -8,8 +30,8 @@ Extensible full node using MIB v1.8.17
 2. CentOS 7.x x64 or later
 3. Windows Server 2012 R2 x64 or later
 
-### Minimum Server Requirements
-1. For Linux / Windows 
+### Minimum specification for Server
+1. Linux / Windows equal 
 2. CPU : 2 vcpu or more
 3. RAM : 4GB or more
 4. DISK : 50GB or more (SSD Recommended)
