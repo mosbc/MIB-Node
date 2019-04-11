@@ -18,6 +18,7 @@ Success : {"result_code":200,"result_msg":"Success","result_data":{"difficulty":
 
 Failure: {"result_code":500,"result_msg":"Error Message"}
 
+***
 
 
 # MIB-Node
